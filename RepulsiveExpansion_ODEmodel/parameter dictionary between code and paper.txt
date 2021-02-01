@@ -1,0 +1,32 @@
+left is the variable names code script; right is the variable names in supplement table
+%%%%%%%% cell growth Parameters %%%%%%%%
+BeiShu =1 is the domian =1 base case
+
+Nstar  ; n_*	half depletion nutrient concentration
+Kphi2  ; K_σ	half activation distance for cell division
+expphi2; n_σ	Hill coefficient for distance-dependent cell division
+sigma0 ; σ_0	maximum cell division rate
+
+
+%%%%%%%% gene circuit parameters %%%%%%%%
+kT    ; k_T	Synthesis rate of T7RNAP
+kL    ; k_L	Synthesis rate of T7 lysozyme
+kP    ; k_LT	Combination rate of T-Lys complex
+Tstar ; T_*	Half activation constant of T7RNAP
+Pstar ; P_*	Half inhibition of T-Lys complex
+da    ; d_a	AHL degradation rate
+dT    ; d_T	Degradation rate of T7RNAP
+dL    ; d_L	Degradation rate of T7 lysozyme
+decayP; d_P	Dissociation rate of T-Lys complex
+
+Kphi  ; K_φ	Half activation distance for gene expression
+expphi; n_φ	Hill coefficient for distance-dependent gene expression capacity
+Kphi2 ; K_σ	Half activation distance for growth
+expphi2; n_σ	Hill coefficient for distance-dependent growth
+m     ; m	Hill coefficient of AHL mediated gene expression
+beta0 ; β	Inhibition factor of T7 lysozyme on Growth
+
+%% Define Initial Conditions
+a0    ; initial AHL concentration
+R0    ; R_0	Initial colony radius
+Nu0   ; N_0	Initial nutrient concentration
